@@ -1,0 +1,25 @@
+# Secrets
+**/.env
+!**/.env.example
+
+# Backend
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+backend/venv/
+backend/.venv/
+backend/data/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/terraform.tfvars
+*.tfplan
+
+# OS
+.DS_Store
